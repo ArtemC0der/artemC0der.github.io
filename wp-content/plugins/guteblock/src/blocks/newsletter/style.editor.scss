@@ -1,0 +1,25 @@
+.wp-block-guteblock-newsletter {
+	.wp-block-guteblock-newsletter__input input::placeholder {
+		color: unset;
+		opacity: 0.5;
+	}
+	&.is-style-3 {
+		button.components-button.wp-block-guteblock-newsletter-inner {
+			bottom: unset;
+		}
+	}
+	&__addNewsletter {
+		padding: 15px 10px 15px 10px;
+		display: block;
+		margin: 0 auto;
+		height: 50px;
+		width: 150px;
+		cursor: pointer;
+		border: 2px solid #333;
+		opacity: 0.3;
+		transition: 0.3s all linear;
+	}
+	&__addNewsletter:hover {
+		opacity: 1;
+	}
+}

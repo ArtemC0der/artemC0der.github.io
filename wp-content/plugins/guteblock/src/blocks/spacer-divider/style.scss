@@ -1,0 +1,31 @@
+.wp-block-guteblock-spacer-divider {
+    &__separator {
+        display: block;
+        background-image: linear-gradient(to right, #333 100%, rgba(255, 255, 255, 0) 10%);
+        background-position: top;
+        background-size: 60px 1px;
+        background-repeat: repeat-x;
+    }   
+
+    // &.is-style-dotted {
+    //     .wp-block-guteblock-spacer-divider__separator {            
+            
+    //     }
+    // }
+
+    // &.is-style-dashed {
+    //     .wp-block-guteblock-spacer-divider__separator {            
+            
+    //     }
+    // }
+
+    &.is-style-wave {
+        svg {
+            display: block;
+            height: 160px;
+            width: 100%;
+            position: relative;
+            top: 5px;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.wp-block-guteblock-testimonial {
+	.testimonial__image-outer {
+		cursor: pointer;
+	}
+	.testimonial__outer {
+		position: relative;
+	}
+	.testimonial__remove-btn {
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		z-index: 100;
+		height: 50px;
+		width: 50px;
+		margin-top: -25px;
+		background: #fff;
+		cursor: pointer;
+		opacity: 0;
+		transition: 0.3s all linear;
+		border-radius: 100%;
+		padding: 10px;
+	}
+
+	.testimonial__image-outer button {
+		padding: 75px;
+		margin: 10px;
+	}
+	&__addTestimonial {
+		padding: 15px 10px 10px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 93%;
+		height: 50px;
+		width: 50px;
+		cursor: pointer;
+		border: 2px solid #333;
+		opacity: 0.3;
+		transition: 0.3s all linear;
+	}
+	&__addTestimonial:hover {
+		opacity: 1;
+	}
+}
+.testimonial__outer:hover .testimonial__remove-btn {
+	opacity: 1;
+}

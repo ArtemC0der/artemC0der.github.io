@@ -1,0 +1,28 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-eb-social {
+	border: 1px dotted #f00;
+}
+
+.drag-helper .profile-wrapper {
+	border-color: #b4b4cb;
+}
+
+.profile-wrapper .drag-handle {
+	flex: 2 1 0%;
+	background: transparent !important;
+	border-left: 1px solid #b4b4cb;
+	cursor: move;
+	color: #ffffff;
+	align-items: center;
+	display: flex !important;
+	justify-content: center;
+}
+
+.profile-icon-container :first-child {
+	color: #b4b4cb;
+}

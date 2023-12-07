@@ -1,0 +1,58 @@
+// .wp-block-guteblock-count-ups.shape-round {
+
+// 	.editor-media-placeholder {
+// 		border-radius: 100%;
+// 		height: 300px;
+// 		width: 300px;
+// 		display: inline-block;
+// 		padding: 80px 30px 0;
+// 	}
+
+// }
+
+.wp-block-guteblock-count-ups {
+	display: block;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+
+	> .editor-inner-blocks > .editor-block-list__layout {
+		display: flex;
+		flex-wrap: wrap;
+
+		> [data-type="guteblock/count-up"] {
+			max-width: none;
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	@for $i from 1 through 6 {
+		&.has-#{$i}-columns {
+			> .editor-inner-blocks
+				> .editor-block-list__layout
+				[data-type="guteblock/count-up"] {
+				width: calc(100% /#{$i});
+			}
+		}
+	}
+
+	> .editor-inner-blocks > .editor-block-list__layout .block-list-appender {
+		width: 100%;
+	}
+	.editor-block-list__layout .wp-block-guteblock-count-up {
+		margin: 0;
+		width: auto;
+	}
+}
+.wp-block-guteblock-count-up__image-outer {
+	position: relative;
+}
+.wp-block-guteblock-count-up__image-outer span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -10px 0 0 -10px;
+}
+.editor-url-input input {
+	max-width: 100%;
+}

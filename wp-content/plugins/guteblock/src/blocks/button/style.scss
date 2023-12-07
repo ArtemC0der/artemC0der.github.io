@@ -1,0 +1,22 @@
+.wp-block-guteblock-button {
+    
+    &.align-center {
+        text-align: center;
+    }
+    &.align-right {
+        text-align: right;
+    }   
+    &.align-left {
+        text-align: left;
+    }
+
+    .wp-block-guteblock-button-inner {
+        height: auto;
+        border: none;
+        transition: 0.5s ease;
+    }
+
+    .wp-block-guteblock-button-inner:hover {
+        transition: 0.5s ease;
+    }
+}

@@ -1,0 +1,33 @@
+.wp-block-guteblock-notification {
+	position: relative;
+
+	&__closeBtn {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		cursor: pointer;
+	}
+	&.has-shadow {
+		box-shadow: 0px 4px 19px -9px #333;
+	}
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+	.dashicon {
+		display: inline-block;
+	}
+	h3.wp-block-guteblock-notification__title {
+		margin: 0;
+		padding: 2%;
+	}
+	p.wp-block-guteblock-notification__description {
+		margin: 0;
+		padding: 2%;
+	}
+	svg {
+		fill: currentColor;
+	}
+}

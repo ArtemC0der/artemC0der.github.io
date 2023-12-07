@@ -1,0 +1,91 @@
+$break-mobile: 480px;
+$break-tab: 960px;
+
+.wp-block-guteblock-testimonial {
+	padding: 100px 0 70px;
+	background: #e8f4fd;
+
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+	&__container {
+		max-width: 1120px;
+		margin: 0 auto;
+	}
+	&.has-shadow .testimonial__outer {
+		box-shadow: 0 0 29px -19px #333;
+	}
+	h4.wp-block-guteblock-testimonial__title {
+		margin: 20px 0 0;
+		display: inline-block;
+	}
+	p.wp-block-guteblock-testimonial__content {
+		margin: 20px 0 0;
+		line-height: 1.5;
+	}
+	.testimonial__outer {
+		background: #fff;
+		padding: 30px;
+		margin: 0 0 30px;
+		transition: 0.3s all linear;
+
+		@media screen and (max-width: $break-tab) {
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		@media screen and (max-width: $break-mobile) {
+		}
+	}
+	.testimonial__image-outer {
+		float: left;
+		height: 210px;
+		width: 210px;
+		border-radius: 20px;
+		overflow: hidden;
+		margin: 0 60px 0 0;
+		position: relative;
+		z-index: 100;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		@media screen and (max-width: $break-mobile) {
+			width: 100%;
+			margin: 0 0 30px;
+		}
+	}
+	.clear {
+		display: block;
+		clear: both;
+	}
+
+	p.wp-block-guteblock-testimonial__jobposition {
+		margin: 0;
+		line-height: 1;
+	}
+
+	&.is-style-multiple {
+		.testimonial__outer {
+			float: left;
+			width: 48%;
+			@media screen and (max-width: $break-tab) {
+				width: 40%;
+			}
+			@media screen and (max-width: $break-mobile) {
+				width: 90%;
+			}
+		}
+		.testimonial__outer:nth-child(2n) {
+			float: right;
+		}
+		.testimonial__image-outer {
+			display: none;
+		}
+	}
+}

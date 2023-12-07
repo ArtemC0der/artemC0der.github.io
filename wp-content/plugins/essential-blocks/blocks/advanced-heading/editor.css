@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-eb-heading {
+	border: 1px dotted #f00;
+}
+
+.eb-heading-group .is-primary {
+	color: #551ef7 !important;
+	font-weight: bold;
+	background: #cebeff !important;
+	border: 1px solid #c1adff;
+	box-shadow: none !important;
+}
+
+.eb-heading-group .is-secondary {
+	color: #c0c0d4 !important;
+	font-weight: bold;
+	background: #ffffff !important;
+	box-shadow: none !important;
+}
+
+.eb-heading-group :first-child {
+	border-top-left-radius: 5px !important;
+	border-bottom-left-radius: 5px !important;
+}
+.eb-heading-group :last-child {
+	border-top-right-radius: 5px !important;
+	border-bottom-right-radius: 5px !important;
+}

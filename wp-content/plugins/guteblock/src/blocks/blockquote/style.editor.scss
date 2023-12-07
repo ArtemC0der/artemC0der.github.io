@@ -1,0 +1,84 @@
+.wp-block-guteblock-blockquote {
+    &.tabControll{
+        width:100%;
+        display: inline-block;
+        margin-top: 5px;
+        &.tab-one{
+            width:25%;
+            min-height: 70px;
+            outline: none;
+            &:focus{
+                outline:0 !important;
+                box-shadow: none;
+            }
+        }
+        &.active-class{
+            border-bottom:1px solid #ed645a;
+            &button.active-class{
+                outline:0 !important;
+                box-shadow: none;
+                &:focus{
+                    outline:0 !important;
+                    box-shadow: none;
+                }
+            }
+            
+        }
+        &.controller-holder{
+            width:100%;
+            float: left;
+        }
+    }
+    &.alignTofull .components-toolbar>div{
+        flex: 1;
+        justify-content: space-evenly;
+        fill:#fff;
+        padding: 5px;
+        margin: 5px 0px;
+        border-bottom: 2px solid #ed645a;
+    }
+    
+    &.alignTofull .components-toolbar>div button >svg{
+        border:1px solid #fff;
+        fill: #000;
+        background: #fff;
+         &.is-active{
+            fill: #ed645a;
+            background: #fff;
+         }
+    }
+     &.alignTofull .components-toolbar>div button{ 
+         &.is-active{
+            fill: #ed645a;
+            background: #fff;
+         }
+       
+    }
+    &.switchToCenter {
+        text-align: center;
+        &.buttonOn{
+            background-color:#ed645a !important;
+            color: #fff;
+            padding: 10px 15px 15px 10px;
+            font-weight: 600;
+            transition: .5s all ease;
+            border: 1px solid #ed645a;
+        }
+        &.buttonOn:hover{
+             transition: .5s all ease;
+             color: #000;
+        }
+    }
+    &.sepratorController{
+        height: 1.5px;
+        margin: 10px auto;
+    }
+    &.sepratorController-innerDropDown{
+        height: 1.5px;
+        margin: 5px auto;
+    }
+
+}
+.inner-popover-content-Width{
+    padding: 15px;
+}

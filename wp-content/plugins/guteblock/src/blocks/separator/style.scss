@@ -1,0 +1,42 @@
+.wp-block-guteblock-separator {
+	text-align: left;
+	position: relative;
+
+	h4 {
+		position: relative;
+	}
+	&.background-fixed {
+		background-attachment: fixed;
+	}
+	&.align-right {
+		text-align: right;
+	}
+	&.align-center {
+		text-align: center;
+	}
+	&__overlay {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	&__button {
+		padding: 15px 30px;
+		background: red;
+		color: #fff;
+		font-weight: bold;
+	}
+	&__contentOuter {
+		position: relative;
+		a {
+			border: none;
+			text-decoration: none;
+			opacity: 0.8;
+			transition: 0.3s all linear;
+		}
+		a:hover {
+			opacity: 1;
+		}
+	}
+}

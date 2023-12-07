@@ -1,0 +1,105 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ *
+ * The file is enqueued from inc/admin/class-admin.php.
+ */
+
+
+/*  Moving Row and Columns Fields  */
+
+.wptb-row-moving-field, .wptb-column-moving-field {
+    background-color: #1ea5e5;
+    position: absolute;
+    z-index: 100100;
+    display: table;
+    /*-webkit-transform: scale(0.9, 0.9);
+    -moz-transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    transform: scale(0.9, 0.9);*/
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.wptb-row-moving-field {
+    width: 30px;
+}
+
+.wptb-column-moving-field {
+    height: 30px;
+}
+
+.wptb-row-moving-field .row-visual-button-box,
+.wptb-column-moving-field .column-visual-button-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+
+.wptb-row-moving-field .row-visual-button-box {
+    display: table-cell;
+}
+
+.wptb-column-moving-field .column-visual-button-box {
+    display: block;
+    height: 30px;
+}
+
+.row-visual-button-box.row-visual-button-box-left {
+    position: absolute;
+    background: #1ea5e5;
+    width: 30px;
+    height: 100%;
+}
+
+.column-visual-button-box.column-visual-button-box-top {
+    position: absolute;
+    background: #1ea5e5;
+    width: 100%;
+    height: 30px;
+}
+
+.row-visual-button-box.row-visual-button-box-left svg {
+    height: 100%;
+}
+
+.wptb-row-moving-field .row-visual-button-box span {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.wptb-row-moving-field:hover, .wptb-column-moving-field:hover {
+    cursor: move;
+}
+
+.wptb-preview-table tr.wptb-row.wptb-row-moving {
+    background: #d8d8d8;
+}
+
+.wptb-column-moving:before, .wptb-row-moving td:before {
+    color: #fff0 !important;
+}
+
+.wptb-column-moving:after, .wptb-row-moving td:after {
+    border-width: 0px !important;
+}
+
+.wptb-td-border-top-moving {
+    border-top-color: #d8d8d8 !important;
+}
+.wptb-td-border-bottom-moving {
+    border-bottom-color: #d8d8d8 !important;
+}
+.wptb-td-border-left-moving {
+    border-left-color: #d8d8d8 !important;
+}
+.wptb-td-border-right-moving {
+    border-right-color: #d8d8d8 !important;
+}
+#wptb-left-scroll-panel-cell-settings.visible {
+    overflow-y: auto;
+}

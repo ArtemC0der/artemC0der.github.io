@@ -1,0 +1,28 @@
+.wp-block-guteblock-icon-list {
+	display: block;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+
+	> .editor-inner-blocks > .editor-block-list__layout {
+		display: flex;
+		flex-wrap: wrap;
+
+		.wp-block-guteblock-icon {
+			width: 100%;
+		}
+	}
+
+	@for $i from 1 through 6 {
+		&.has-#{$i}-columns {
+			> .editor-inner-blocks
+				> .editor-block-list__layout
+				[data-type="guteblock/icon"] {
+				width: calc(100% /#{$i});
+			}
+		}
+	}
+
+	> .editor-inner-blocks > .editor-block-list__layout .block-list-appender {
+		width: 100%;
+	}
+}

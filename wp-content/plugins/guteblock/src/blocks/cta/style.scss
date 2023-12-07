@@ -1,0 +1,58 @@
+.wp-block-guteblock-cta {
+	position: relative;
+	&.background-fixed {
+		background-attachment: fixed;
+	}
+	&__overlay {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+	}
+	&__contentOuter {
+		position: relative;
+		margin: 0 auto;
+	}
+
+	&__container {
+		width: 50%;
+		&.align-center {
+			text-align: center;
+		}
+		&.align-right {
+			text-align: right;
+		}
+		position: relative;
+		display: inline-block;
+		a {
+			border: none;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	&__title {
+		color: #000;
+	}
+	&__button {
+		color: #000;
+		font-size: 20px;
+		display: inline-block;
+	}
+	.wp-block-guteblock-cta__button {
+		border-radius: 100px;
+		background-color: #15d4d4;
+	}
+	&.is-style-right {
+		text-align: right;
+		.wp-block-guteblock-cta__title {
+			font-size: 30px;
+			color: #fff;
+		}
+		.wp-block-guteblock-cta__button {
+			color: #000;
+			border-radius: 0px;
+			background-color: #fff;
+		}
+	}
+}

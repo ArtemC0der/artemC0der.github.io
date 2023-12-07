@@ -1,0 +1,10 @@
+{
+  "name": "essential-blocks/typing-text",
+  "description": "Make Your Website Interactive With Typing Text Animation",
+  "category": "essential-blocks",
+  "title": "Typing Text",
+  "textAlign": {
+    "type": "string",
+    "default": "left"
+  }
+}

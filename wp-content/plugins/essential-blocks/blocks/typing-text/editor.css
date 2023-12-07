@@ -1,0 +1,19 @@
+.wp-block-eb-typed {
+	border: 1px dotted #f00;
+}
+
+.eb-sortable-typing-list {
+	margin-bottom: 0px !important;
+}
+
+.eb-sortable-typing-list li:last-child {
+	margin-bottom: 0px;
+}
+
+.eb-sortable-typing-list li:last-child > span {
+	margin-bottom: 0px;
+}
+
+.eb-typed-add-button {
+	margin-left: 5px;
+}

@@ -1,0 +1,8 @@
+.wp-block-essential-blocks-toggle-content {
+	border: 1px dotted #f00;
+}
+
+.eb-typography-base div{
+		display: flex;
+		justify-content: space-between;
+}

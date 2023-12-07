@@ -1,0 +1,164 @@
+
+.wp-block-guteblock-accordion {
+
+    &__title-outer {
+       position: relative; 
+
+        i.accordion-arrow {
+            border: solid #ed6558;
+            border-width: 0 5px 5px 0 !important;
+            display: inline-block;
+            padding: 6px;
+            transition: .3s all linear;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            margin-top: -12px;
+            cursor: pointer;
+        }
+    }
+    
+.wp-block-guteblock-accordion__content-outer {
+            &.gb-accordion-open {
+                max-height: 1000px; 
+                transition: max-height 0.5s ease-in-out;
+            }
+        }
+    .wp-block-guteblock-accordion__content-outer {
+        max-height: 0;     
+        width: 100%;       
+        overflow-y: hidden;
+        display: inline-block;
+        -webkit-transition: max-height 0.5s ease-in-out;
+        -moz-transition: max-height 0.5s ease-in-out;
+        -o-transition: max-height 0.5s ease-in-out;
+        transition: max-height 0.5s ease-in-out;
+    }
+    .wp-block-guteblock-accordion__title, .wp-block-guteblock-accordion__content {
+        margin: 0;
+    }
+
+
+    &.align-center {
+        text-align: center;
+    }
+    &.align-right {
+        text-align: right;
+    }   
+    &.each-accordion-seprator{
+        width: 90%;
+        margin: 0 auto;
+        height: 3px;
+        background-color: blue;
+    }
+    &.each-accordion-title-seprator{
+        width: 90%;
+        margin: 0 auto;
+        height: 3px;
+        background-color:#cccccc;
+    }
+}
+.icontoggle{
+    transform: rotate(45deg) !important;
+    -webkit-transform: rotate(45deg) !important;
+}
+.icontoggle1{
+    transform: rotate(-90deg) !important;
+    -webkit-transform: rotate(-90deg) !important;
+}
+.wp-block-guteblock-accordion__Inner-Container{
+    margin: 0 auto;
+}
+.wp-block-guteblock-accordion__content-one{
+    width: 70%;
+    display: inline-block;
+}
+.wp-block-guteblock-accordion__content-two{
+     width: 25%;
+     float: left;
+}
+.wp-block-guteblock-accordion__content-two-peace{
+    width: 100%;
+    display: inline-block;
+}
+.wp-block-guteblock-accordion__content-one-peace{
+    width: 100%;
+    display: inline-block;
+}
+.wp-block-guteblock-accordion__content-lengthy{
+    width: 100%;
+    display: inline-block;
+}
+.wp-block-guteblock-accordion__title-outer{
+    width: 100%;
+    display: inline-block;
+}
+.wp-block-guteblock-accordion__title-outer__ImageOuter{
+    width: 6%;
+    float: left;
+    text-align: center;
+    display: inline-flex;
+}
+.wp-block-guteblock-accordion__title-outer__ImageOuter img{
+    position: relative;
+    height: auto !important;
+}
+.wp-block-guteblock-accordion__title__title{
+    width: 40%;
+    float: left;
+}
+.components-icon-button-components-toolbar__control-open {
+    position: absolute;
+    top: -10%;
+    left: 1%;
+    z-index: 9999;
+    background: transparent !important;
+}
+.components-icon-button-components-toolbar__control-open svg {
+    fill: #ed6558 !important;
+} 
+.wp-block-guteblock-accordion__centerContent {
+    width: 40%;
+    float: left;
+}
+.wp-block-guteblock-accordion__centerContent p {
+    margin: 0 !important;
+}
+.wp-block-guteblock-accordion__controlIcon {
+    width: 14%;
+    float: left;
+}
+.wp-block-guteblock-accordion__ihead{
+    width: 100%;
+    display: inline-block;
+}
+.wp-block-guteblock-accordion__controlIconOnBelow {
+    width: 100%;
+    display: inline-block;
+    background-color: transparent;
+    height: 1px;
+    position: relative;
+    svg.accordion-arrow1{
+            position: absolute;
+            display: inline-block;
+            transition: .3s all linear;
+            padding: 5px;
+            right: 10px;
+            top: 50%;
+            margin-top: -6px;
+            cursor: pointer;
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+    }
+}
+.wp-block-guteblock-accordion_IhOlder{
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    right: 10px;
+    top: 50%;
+    margin-top: -12px;
+    cursor: pointer;
+}

@@ -1,0 +1,90 @@
+$break-mobile: 480px;
+$break-tab: 960px;
+
+.wp-block-guteblock-numberbox {
+	padding: 100px 0 70px;
+	background: #e8f4fd;
+
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+	&__container {
+		max-width: 1120px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&.has-shadow .numberbox__outer {
+		box-shadow: 0 0 29px -19px #333;
+	}
+	h4.wp-block-guteblock-numberbox__title {
+		margin: 20px 0 0;
+	}
+	p.wp-block-guteblock-numberbox__content {
+		margin: 20px 0 0;
+		line-height: 1.5;
+	}
+	.numberbox__outer {
+		background: #fff;
+		padding: 30px;
+		margin: 0 4% 30px;
+		transition: 0.3s all linear;
+		width: 25%;
+		display: inline-block;
+
+		@media screen and (max-width: $break-tab) {
+			width: 42%;
+			margin-bottom: 50px;
+			vertical-align: top;
+		}
+		@media screen and (max-width: $break-mobile) {
+			width: 92%;
+			margin-bottom: 50px;
+		}
+	}
+	.numberbox__point-outer {
+		width: 100px;
+		height: 100px;
+		text-align: center;
+		line-height: 100px;
+		margin: 0 auto;
+		font-weight: bold;
+		font-size: 40px;
+	}
+
+	.numberbox__outer {
+		counter-increment: count;
+	}
+	.numberbox__outer .numberbox__point-outer:before {
+		content: counter(count);
+	}
+	.numberbox__outer:nth-child(-n + 9) .numberbox__point-outer:before {
+		content: "0" counter(count);
+	}
+	.numberbox__outer {
+	}
+	.numberbox__outer .numberbox__point-outer:before {
+	}
+
+	.clear {
+		display: block;
+		clear: both;
+	}
+
+	p.wp-block-guteblock-numberbox__jobposition {
+		margin: 0;
+		line-height: 1;
+	}
+
+	&.is-style-multiple {
+		.numberbox__outer {
+			float: left;
+			width: 50%;
+		}
+		.numberbox__image-outer {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.wp-block-guteblock-drop-cap {
+	text-align: left;
+
+	p:first-child:first-letter,
+	p:nth-of-type(1):first-letter {
+		float: left;
+		font-size: 75px;
+		padding-top: 4px;
+		padding-right: 8px;
+		padding-left: 3px;
+		margin: 0px 6px 10px 0;
+		line-height: 0.68;
+		text-transform: uppercase;
+	}
+
+	p.wp-block-guteblock-drop-cap__content::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	p.wp-block-guteblock-drop-cap__content::after {
+		padding: 0;
+	}
+
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+}

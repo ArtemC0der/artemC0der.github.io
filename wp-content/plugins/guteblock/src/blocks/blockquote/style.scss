@@ -1,0 +1,58 @@
+.wp-block-guteblock-blockquote {
+
+    &.align-center {
+        text-align: center;
+    }
+    &.align-right {
+        text-align: right;
+    }
+    &.align-left {
+        text-align: left;
+    } 
+    &.alignTofull{
+        flex: 1;
+        justify-content: space-evenly;
+    }
+    &.content-author{
+        width: 100%;
+        float: left;
+    }
+    &.contentReal{
+        width: 100%;
+        display: inline-block;
+    }
+}
+.wp-block-guteblock-blockquote__contentReal{
+    width: 100%;
+        display: inline-block;
+}
+.wp-block-guteblock-blockquote__Inner-container{
+    margin: 0 auto;
+}
+.wp-block-guteblock-blockquote__content-outer{
+    width: 100%;
+}
+.wp-block-guteblock-blockquote__svgTracker{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    clear: both;
+     &.svgController-down{
+        position: absolute;
+        transform: rotate(180deg);
+        width: auto;
+        height: auto;
+    }
+    &.svgController-up{
+        position: absolute;
+        width: auto;
+        height: auto;
+    }
+}
+
+//second styles
+.wp-block-guteblock-blockquote__content-outer__secondStyle{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}

@@ -1,0 +1,129 @@
+# Copyright (C) 2021 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/eb\n"
+"POT-Creation-Date: 2021-07-05 09:42:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: includes/category.php:7 includes/essential-admin.php:43
+msgid "Essential Blocks"
+msgstr ""
+
+#: includes/essential-admin.php:122
+msgid "Accordion"
+msgstr ""
+
+#: includes/essential-admin.php:127
+msgid "Button"
+msgstr ""
+
+#: includes/essential-admin.php:132
+msgid "Call To Action"
+msgstr ""
+
+#: includes/essential-admin.php:137
+msgid "Countdown"
+msgstr ""
+
+#: includes/essential-admin.php:142
+msgid "Dual Button"
+msgstr ""
+
+#: includes/essential-admin.php:147
+msgid "Flipbox"
+msgstr ""
+
+#: includes/essential-admin.php:152
+msgid "Heading"
+msgstr ""
+
+#: includes/essential-admin.php:157
+msgid "Image Comparison"
+msgstr ""
+
+#: includes/essential-admin.php:162
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/essential-admin.php:167
+msgid "Infobox"
+msgstr ""
+
+#: includes/essential-admin.php:172
+msgid "Instagram Feed"
+msgstr ""
+
+#: includes/essential-admin.php:177
+msgid "Interactive Promo"
+msgstr ""
+
+#: includes/essential-admin.php:182
+msgid "Notice"
+msgstr ""
+
+#: includes/essential-admin.php:187
+msgid "Parallax Slider"
+msgstr ""
+
+#: includes/essential-admin.php:192
+msgid "Pricing Table"
+msgstr ""
+
+#: includes/essential-admin.php:197
+msgid "Progress Bar"
+msgstr ""
+
+#: includes/essential-admin.php:202
+msgid "Slider"
+msgstr ""
+
+#: includes/essential-admin.php:207
+msgid "Social"
+msgstr ""
+
+#: includes/essential-admin.php:212
+msgid "Team Member"
+msgstr ""
+
+#: includes/essential-admin.php:217
+msgid "Testimonial"
+msgstr ""
+
+#: includes/essential-admin.php:222
+msgid "Toggle Content"
+msgstr ""
+
+#: includes/essential-admin.php:227
+msgid "Typing Text"
+msgstr ""
+
+#: includes/essential-admin.php:232
+msgid "Wrapper"
+msgstr ""
+
+#: includes/essential-admin.php:237
+msgid "Number Counter"
+msgstr ""
+
+#: includes/menu-page-display.php:92
+msgid "<a href=\"%s\" target=\"_blank\">Explore Demos</a>"
+msgstr ""

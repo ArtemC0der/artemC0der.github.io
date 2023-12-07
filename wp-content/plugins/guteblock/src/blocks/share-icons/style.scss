@@ -1,0 +1,234 @@
+.wp-block-guteblock-share-icons {
+	
+	/* Wrapper */
+	.icon-button {
+		background-color:#eaeaea;
+		border-radius: 100%;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 27px;
+		height: 60px;
+		line-height: 60px;
+		margin: 0 5px;
+		position: relative;
+		text-align: center;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		width: 60px;
+	}
+
+	/* Circle */
+	.icon-button span {
+		border-radius: 0;
+		display: block;
+		height: 0;
+		left: 50%;
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+			-o-transition: all 0.3s;
+				transition: all 0.3s;
+		width: 0;
+	}
+	.icon-button:hover span {
+		width: 60px;
+		height: 60px;
+		border-radius: 100%;
+		margin: -30px;
+	}
+	.twitter span {
+		background-color: #4099ff;
+	}
+	.facebook span {
+		background-color: #3B5998;
+	}
+	.linkedin span {
+		background-color: #0077b5;
+	}
+	.pinterest span {
+		background-color: #e60023;
+	}
+	.reddit span {
+		background-color: #ff4500;
+	}
+
+	/* Icons */
+	.icon-button i {
+		background: none;
+		color: white;
+		height: 60px;
+		left: 0;
+		line-height: 60px;
+		position: absolute;
+		top: 0;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+			-o-transition: all 0.3s;
+				transition: all 0.3s;
+		width: 60px;
+		z-index: 10;
+	}
+	.icon-button .icon-twitter {
+		color: #4099ff;
+	}
+	.icon-button .icon-facebook {
+		color: #3B5998;
+	}
+	.icon-button .icon-linkedin {
+		color: #0077b5;
+	}
+	.icon-button .icon-pinterest {
+		color: #e60023;
+	}
+	.icon-button .icon-reddit-alien {
+		color: #ff4500;
+	}
+	.icon-button:hover i {
+		color: white;
+	}
+
+	&.is-style-square {
+		.icon-button, .icon-button:hover span {
+			border-radius: 0px;
+		}
+
+	}
+
+
+	&.is-style-modern {
+
+		.btn__container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}	
+		a.gb-btn {
+			min-width: 136px;
+			background-color: #fff;
+			padding: 10px 20px;
+			text-decoration: none;
+			color:#286ED6;
+			display: flex;
+			transition: all .2s ease-in-out;
+			font-size: 16px;
+			line-height: 1;
+		}
+		.gb-btn i {
+			color: #286ED6;
+			font-size: 20px;
+			padding-right: 10px;
+			transition: all .3s ease-in-out;
+		}
+		.gb-btn span {
+			font-family: "Roboto", sans-serif;
+			align-self: center;
+			-webkit-transform: translateX(0px);
+					transform: translateX(0px);
+			transition: all .1s ease-in-out;
+			opacity: 1;
+			color: #286ED6;
+		}
+		.gb-btn:hover {
+			-webkit-transform: scale(1.1);
+					transform: scale(1.1);
+			background-color: #286ED6;
+			box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+		}
+		.gb-btn:hover i {
+			-webkit-transform: translateX(33px);
+					transform: translateX(33px);
+			padding-right: 0;
+			color: #FFF;
+		}
+		.gb-btn:hover span {
+			-webkit-transform: translateX(30px);
+					transform: translateX(30px);
+			opacity: 0;
+		}
+		.gb-btn:active {
+			-webkit-transform: scale(1);
+					transform: scale(1);
+			box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+		}
+
+
+
+
+		a.gb-btn-twitter {
+			color:#4099ff;
+			i {
+				color: #4099ff;
+			}
+			span {			
+				color: #4099ff;
+			}
+			&:hover {			
+				background-color: #4099ff;
+			}
+		}
+		a.gb-btn-linkedin {
+			color:#4099ff;
+			i {
+				color: #4099ff;
+			}
+			span {			
+				color: #4099ff;
+			}
+			&:hover {			
+				background-color: #4099ff;
+			}
+		}
+		a.gb-btn-pinterest {
+			color:#e60023;
+			i {
+				color: #e60023;
+			}
+			span {			
+				color: #e60023;
+			}
+			&:hover {			
+				background-color: #e60023;
+			}
+		}
+		a.gb-btn-reddit {
+			color:#ff4500;
+			i {
+				color: #ff4500;
+			}
+			span {			
+				color: #ff4500;
+			}
+			&:hover {			
+				background-color: #ff4500;
+			}
+		}
+
+		// .gb-btn-twitter:hover i {
+		// 	color: #fff;
+		// }
+		// .gb-btn-twitter:hover span {
+
+		// }
+
+
+
+
+
+
+
+	}
+
+
+
+
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+
+}

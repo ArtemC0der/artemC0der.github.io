@@ -1,0 +1,172 @@
+$break-mobile: 480px;
+$break-tab: 960px;
+
+.wp-block-guteblock-card {
+	padding: 100px 0 70px;
+	background-color: #b3e7fe;
+
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+	&__container {
+		max-width: 1120px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&.has-shadow .card__outer {
+		box-shadow: 0 0 29px -19px #333;
+	}
+	h4.wp-block-guteblock-card__title {
+		margin: 20px 0 0;
+	}
+	p.wp-block-guteblock-card__content {
+		margin: 0;
+		line-height: 1.5;
+	}
+	.wp-block-guteblock-card__button {
+		margin: 20px 0 0;
+		padding: 10px;
+		font-size: inherit;
+		font-weight: inherit;
+		cursor: pointer;
+		background-color: transparent;
+		opacity: 1;
+		transition: 0.3s ease all;
+	}
+	.wp-block-guteblock-card__button:hover {
+		opacity: 0.95;
+		transition: 0.3s ease all;
+	}
+	.card__outer {
+		background: #fff;
+		padding: 30px;
+		margin: 0 4.16% 30px;
+		transition: 0.3s all linear;
+		width: 25%;
+		display: block;
+		float: left;
+
+		a {
+			color: black;
+		}
+
+		@media screen and (max-width: $break-tab) {
+			width: 42%;
+			margin-bottom: 50px;
+			vertical-align: top;
+			margin-left: 4%;
+			margin-right: 4%;
+		}
+		@media screen and (max-width: $break-mobile) {
+			width: 92%;
+			margin-bottom: 50px;
+		}
+	}
+	.card__point-outer {
+		width: 100%;
+		height: 220px;
+		text-align: center;
+		line-height: 100px;
+		margin: 0 auto;
+		font-size: 14px;
+	}
+	.card__point-outer button:hover,
+	.card__point-outer button:active,
+	.card__point-outer button:focus {
+		background-color: transparent !important;
+		box-shadow: none !important;
+	}
+	.card__point-outer button svg {
+		margin: 30px 30px;
+	}
+	.card__point-outer img {
+		height: 100%;
+		// width: 100%;
+		margin: auto;
+		object-fit: cover;
+	}
+	.clear {
+		display: block;
+		clear: both;
+	}
+
+	&.is-style-multiple {
+		.card__outer {
+			float: left;
+			width: 50%;
+		}
+		.card__image-outer {
+			display: none;
+		}
+	}
+
+	&.is-style-1 {
+		background-color: #fff;
+		.wp-block-guteblock-card__title {
+			font-size: 35px;
+		}
+	}
+	&.is-style-2 {
+		background-color: #fff;
+
+		.wp-block-guteblock-card__button {
+			background-color: #ff4e4e;
+
+			& p {
+				color: #fff;
+				font-size: 18px;
+			}
+		}
+		.wp-block-guteblock-card__title {
+			font-size: 28px;
+		}
+
+		.card__outer {
+			& a {
+				color: #fff;
+				text-decoration-line: none !important;
+				font-size: 18px;
+			}
+		}
+		.card__point-outer {
+			border: 1px solid #bfbfbf;
+			border-radius: 10% !important;
+		}
+		.card__point-outer img {
+			height: 217px;
+			width: 100%;
+		}
+	}
+	&.is-style-3 {
+		background-color: #f5efe0;
+		.card__outer {
+			transition: 0.3s ease all;
+			border-radius: 25px !important;
+		}
+		.card__outer:hover {
+			transform: scale(1.05);
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25),
+				0 10px 10px rgba(0, 0, 0, 0.22);
+			transition: 0.3s ease all;
+		}
+		.card__point-outer img {
+			border-radius: 100%;
+		}
+		.wp-block-guteblock-card__button {
+			border-radius: 100px !important;
+			background-color: #fef2d3;
+			filter: grayscale(0);
+			transition: 0.3s ease all;
+		}
+		.wp-block-guteblock-card__button:hover {
+			filter: grayscale(0.3);
+			transition: 0.3s ease all;
+		}
+		.card__outer a {
+			text-decoration-line: none;
+		}
+	}
+}

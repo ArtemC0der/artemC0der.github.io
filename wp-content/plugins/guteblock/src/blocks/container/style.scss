@@ -1,0 +1,9 @@
+.wp-block-guteblock-container {
+	padding: 30px 30px;
+	&.align-center {
+		text-align: center;
+	}
+	&.align-right {
+		text-align: right;
+	}
+}

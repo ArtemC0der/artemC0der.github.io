@@ -1,0 +1,54 @@
+.wp-block-guteblock-card {
+	.card__image-outer {
+		cursor: pointer;
+	}
+	.card__outer {
+		position: relative;
+	}
+	.card__remove-btn {
+		position: absolute;
+		top: 50%;
+		right: 20px;
+		z-index: 100;
+		height: 50px;
+		width: 50px;
+		margin-top: -25px;
+		background: #fff;
+		cursor: pointer;
+		opacity: 0;
+		transition: 0.3s all linear;
+		border-radius: 100%;
+		padding: 10px;
+	}
+
+	.card__image-outer button {
+		padding: 75px;
+		margin: 10px;
+	}
+	&__link {
+		font-size: 12px;
+		margin-top: 5px;
+		opacity: .7;
+	}
+	&__addCard {
+		padding: 15px 10px 10px;
+		display: block;
+		margin: 0 auto;
+		border-radius: 93%;
+		height: 50px;
+		width: 50px;
+		cursor: pointer;
+		border: 2px solid #333;
+		opacity: 0.3;
+		transition: 0.3s all linear;
+	}
+	&__addCard:hover {
+		opacity: 1;
+	}
+}
+.card__outer:hover .card__remove-btn {
+	opacity: 1;
+}
+.components-button {
+	font-size: inherit;
+}
